@@ -9,7 +9,7 @@ namespace xUnitTests.Core
         public void Add_MovieLibrary()
         {
             var user = new User();
-            var movieLibrary = new MovieLibrary();
+            var movieLibrary = new MovieCollection();
             user.AddMovieLibrary(movieLibrary);
 
             Assert.Contains(movieLibrary, user.MovieLibraries);
@@ -19,10 +19,10 @@ namespace xUnitTests.Core
         public void Add_MovieLibrary_With_Same_Name()
         {
             var user = new User();
-            var movieLibrary = new MovieLibrary { Name = "My Library" };
+            var movieLibrary = new MovieCollection { Name = "My Library" };
             user.AddMovieLibrary(movieLibrary);
 
-            Assert.Throws<AlreadyExistsLibraryWithSameNameException>(() => user.AddMovieLibrary(movieLibrary));
+            Assert.Throws<AlreadyExistsCollectionWithSameNameException>(() => user.AddMovieLibrary(movieLibrary));
         }
     }
 }
