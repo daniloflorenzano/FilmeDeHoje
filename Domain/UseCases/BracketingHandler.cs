@@ -33,7 +33,7 @@ namespace Domain.Behaviors
                 var bracket = new Bracketing(leftMovie, rightMovie);
                 rightBrackets.Add(bracket);
             }
-            
+
             return (leftBrackets, rightBrackets);
         }
     }
