@@ -1,5 +1,5 @@
-using Domain.Behaviors;
 using Domain.Entities;
+using Domain.UseCases;
 
 namespace xUnitTests.Core
 {

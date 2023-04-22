@@ -1,6 +1,6 @@
 ﻿using Domain.Entities;
 
-namespace Domain.Behaviors
+namespace Domain.UseCases
 {
     public sealed class MovieFilter
     {
