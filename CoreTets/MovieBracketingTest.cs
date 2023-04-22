@@ -39,7 +39,7 @@ namespace xUnitTests.Core
         [Fact]
         public void Create_Bracketing_With_Odd_Number_Of_Movies()
         {
-            _movies.Add(new("The Godfather: Part II", "", "Crime", 1974, 98, 99));
+            _movies.Add(new("The Godfather: Part II", "A", "Crime", 1974, 98, 99));
             var bracketingHandler = new BracketingHandler();
             var bracketings = bracketingHandler.CreateBracket(_movies);
 

@@ -1,4 +1,6 @@
-﻿namespace Domain.Entities
+﻿using Domain.Exceptions;
+
+namespace Domain.Entities
 {
     public sealed class Movie
     {
@@ -11,6 +13,12 @@
 
         public Movie(string title, string description, string genre, int year, int audienceScore, int criticScore)
         {
+            if (string.IsNullOrEmpty(title) || string.IsNullOrEmpty(description) || string.IsNullOrEmpty(genre) || year == 0)
+                throw new InvalidMovieException("Movie cannot be created with empty fields");
+
+            if (DateTime.Now.Year < year)
+                throw new InvalidMovieException("Movie cannot be created with future year");
+
             Title = title;
             Description = description;
             Genre = genre;

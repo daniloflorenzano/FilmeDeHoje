@@ -52,7 +52,7 @@ namespace xUnitTests.Core
         public void Remove_Movie_That_Does_Not_Exist()
         {
             var movieCollection = new MovieCollection { Movies = _movies };
-            var moviesToRemove = new List<Movie> { new("", "", "Action, Comedy, Crime", 2020, 84, 75), new Movie("", "", "Action, Comedy, Crime", 2020, 84, 75) };
+            var moviesToRemove = new List<Movie> { new("A", "B", "Action, Comedy, Crime", 2020, 84, 75), new("C", "D", "Action, Comedy, Crime", 2020, 84, 75) };
 
             Assert.Throws<MovieDoesntExistsInCollectionException>(() => movieCollection.RemoveMovies(moviesToRemove));
         }
@@ -61,7 +61,7 @@ namespace xUnitTests.Core
         public void Add_Collaborators()
         {
             var movieCollection = new MovieCollection();
-            var users = new List<User> { new("Fulano", "", ""), new User("Beutrano", "", "") };
+            var users = new List<User> { new("Fulano", "fulano@email", "passwd"), new("Beutrano", "beutrano@email", "passwd") };
             movieCollection.AddCollaborators(users);
 
             Assert.All(users, user => Assert.Contains(user, movieCollection.Collaborators));
@@ -72,7 +72,7 @@ namespace xUnitTests.Core
         {
             var movieCollection = new MovieCollection
             {
-                Collaborators = new List<User> { new User("Fulano", "", ""), new User("Beutrano", "", "") }
+                Collaborators = new List<User> { new("Fulano", "fulano@email", "passwd"), new("Beutrano", "beutrano@email", "passwd") }
             };
 
             var usersToRemove = new List<User> { movieCollection.Collaborators[0] };
@@ -87,7 +87,7 @@ namespace xUnitTests.Core
         {
             var movieCollection = new MovieCollection
             {
-                Collaborators = new List<User> { new("Fulano", "", "") }
+                Collaborators = new List<User> { new("Fulano", "fulano@email", "passwd") }
             };
 
             var users = new List<User> { movieCollection.Collaborators[0] };
@@ -99,7 +99,7 @@ namespace xUnitTests.Core
         public void Remove_Collaborator_That_Does_Not_Exists()
         {
             var movieCollection = new MovieCollection();
-            var usersToRemove = new List<User> { new("Fulano", "", "") };
+            var usersToRemove = new List<User> { new("Fulano", "fulano@email", "passwd") };
 
             Assert.Throws<CollaboratorDoesntExistsException>(() => movieCollection.RemoveCollaborators(usersToRemove));
         }

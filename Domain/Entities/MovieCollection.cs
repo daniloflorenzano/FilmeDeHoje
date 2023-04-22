@@ -5,14 +5,14 @@ namespace Domain.Entities
     public class MovieCollection
     {
 
-        public string Name { get; set; } = "Untitled";
+        public string? Name { get; set; }
         public List<Movie> Movies { get; set; } = new();
-        public User Owner { get; set; }
-        public List<User> Collaborators { get; set; } = new();
+        public User? Owner { get; set; }
+        public List<User>? Collaborators { get; set; } = new();
 
-        public MovieCollection() { }
+        public MovieCollection() {}
 
-        public MovieCollection(string name, User owner, List<User> collaborators)
+        public MovieCollection(string? name, User? owner, List<User>? collaborators)
         {
             Name = name;
             Owner = owner;
