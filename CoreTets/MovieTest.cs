@@ -8,7 +8,7 @@ namespace xUnitTests.Core
         [Fact]
         public void Cannot_Create_Movie_With_With_Empty_Fields()
         {
-            Assert.Throws<InvalidMovieException>(() => new Movie("", "", "", 0, 0, 0));
+            Assert.Throws<InvalidMovieException>(() => new Movie("", "", "", 0, 0, 0, ""));
         }
 
         [Fact]
@@ -16,7 +16,7 @@ namespace xUnitTests.Core
         {
             var futureYear = DateTime.Now.Year + 1;
 
-            Assert.Throws<InvalidMovieException>(() => new Movie("Title", "Description", "Genre", futureYear, 0, 0));
+            Assert.Throws<InvalidMovieException>(() => new Movie("Title", "Description", "Genre", futureYear, 0, 0, ""));
         }
     }
 }
