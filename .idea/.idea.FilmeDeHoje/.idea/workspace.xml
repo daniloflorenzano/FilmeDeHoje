@@ -4,14 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f652fa44-adab-4879-820f-513031792e65" name="Changes" comment="" />
+    <list default="true" id="f652fa44-adab-4879-820f-513031792e65" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MoviesProvider/MovieProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FilmeDeHoje/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FilmeDeHoje/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilmeDeHoje.sln" beforeDir="false" afterPath="$PROJECT_DIR$/FilmeDeHoje.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoviesProviders/APIs/TheMovieDb/Mapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesProvider/APIs/TheMovieDb/Mapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoviesProviders/APIs/TheMovieDb/Movie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesProvider/APIs/TheMovieDb/Movie.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoviesProviders/APIs/TheMovieDb/TheMovieDbProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesProvider/APIs/TheMovieDb/TheMovieDbProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoviesProviders/APIs/TheMovieDb/TheMovieDbReturn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesProvider/APIs/TheMovieDb/TheMovieDbReturn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoviesProviders/MovieDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesProvider/MovieDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoviesProviders/MoviesProviders.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesProvider/MoviesProvider.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/MoviesProviders/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MoviesProvider/APIs/TheMovieDb/Mapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MoviesProvider/APIs/TheMovieDb/Movie.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MoviesProvider/APIs/TheMovieDb/TheMovieDbProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MoviesProvider/MovieDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MoviesProvider/MovieProvider.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2Otb0lKz6FJIRqItYULkzhq6RB6" />
   <component name="ProjectLevelVcsManager">
@@ -54,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682382607188</updated>
       <workItem from="1682382608339" duration="121000" />
-      <workItem from="1682382739228" duration="5873000" />
+      <workItem from="1682382739228" duration="6753000" />
     </task>
     <servers />
   </component>
