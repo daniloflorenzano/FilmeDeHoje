@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f652fa44-adab-4879-820f-513031792e65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.FilmeDeHoje/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.FilmeDeHoje/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoreTets/MoviesToTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Movies/APIs/TheMovieDb/Mapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Movies/APIs/TheMovieDb/Movie.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Movies/APIs/TheMovieDb/TheMovieDbProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Movies/APIs/TheMovieDb/TheMovieDbReturn.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Movies/MovieDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Movies/Movies.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MoviesProviders/MoviesProviders.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreTets/MovieBracketingTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CoreTets/MovieBracketingTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreTets/MovieCollectionTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CoreTets/MovieCollectionTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreTets/MovieFilterTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CoreTets/MovieFilterTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreTets/MovieTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CoreTets/MovieTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Entities/Movie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Movie.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilmeDeHoje.sln" beforeDir="false" afterPath="$PROJECT_DIR$/FilmeDeHoje.sln" afterDir="false" />
-    </list>
+    <list default="true" id="f652fa44-adab-4879-820f-513031792e65" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682382607188</updated>
       <workItem from="1682382608339" duration="121000" />
-      <workItem from="1682382739228" duration="5477000" />
+      <workItem from="1682382739228" duration="5873000" />
     </task>
     <servers />
   </component>
